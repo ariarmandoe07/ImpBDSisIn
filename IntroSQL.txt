@@ -1,0 +1,10 @@
+-Identificar los campos de la base de datos de pruebas en cada tabla utilizando DESC <table>
+
+-Verificar los registros de cada tabla utilizando 	SELECT
+
+-Insertar registros en la tabla vacía utilizando 
+	INSERT
+
+-Crear una tabla llamada usuarios con nombre, apellido y departamento para establecer relaciones con los horarios
+
+-Insertar 10 usuarios
