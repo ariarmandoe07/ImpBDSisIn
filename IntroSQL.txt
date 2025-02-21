@@ -1,7 +1,7 @@
 /*
 Implentacion de Dase de datos relacionales en un sistema de informacion
 2025/02/20 07:20
-Su nombre
+Aridni Mariana Yañez Sanchez 
 Introduccion a SQL
 */
 
@@ -11,10 +11,22 @@ DESC horario
 DESC plantilla_detalle_horario
 -Verificar los registros de cada tabla utilizando 	SELECT
 SELECT * FROM detalle_horario
+SELECT * FROM horario
+SELECT * FROM _detalle_horario
+
 
 -Insertar registros en la tabla vacía utilizando 
 	INSERT
+insert into detalle_horario ( horario_id, hora_salida, hora_entrada, codigo_incapacidad)
+values ( 1, '2025-08-18 06:45', 'viaje_negocios');
 
 -Crear una tabla llamada usuarios con nombre, apellido y departamento para establecer relaciones con los horarios
+CREATE TABLE usuarios (
+usuario_id int(11) NOT NULL,
+nombre varchar(25) NOT NULL,
+apellido varchar(25) DEFAULT NULL,
+departamento varchar(25) DEFAULT NULL)
 
 -Insertar 10 usuarios
+insert into Usuarios (usuario_id, nombre, apellido, departamento)
+values (2, 'ximena', 'marin', 'XL');
