@@ -1,6 +1,16 @@
--Identificar los campos de la base de datos de pruebas en cada tabla utilizando DESC <table>
+/*
+Implentacion de Dase de datos relacionales en un sistema de informacion
+2025/02/20 07:20
+Su nombre
+Introduccion a SQL
+*/
 
+-Identificar los campos de la base de datos de pruebas en cada tabla utilizando DESC <table>
+DESC detalle_horario
+DESC horario
+DESC plantilla_detalle_horario
 -Verificar los registros de cada tabla utilizando 	SELECT
+SELECT * FROM detalle_horario
 
 -Insertar registros en la tabla vacía utilizando 
 	INSERT
