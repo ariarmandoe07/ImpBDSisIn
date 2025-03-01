@@ -1,0 +1,29 @@
+INSERT into playoffround (id,team1Id,team2Id,startTime, endTime, roundNum)
+values (1,1,2,'2025-02-27 19:14','2025-02-27 20:34',3);
+
+INSERT into hockeygame (id,roundld, startTime, description, team1Id, team2Id)
+values (1, 1, '2025-02-27 19:14', 'Quarterfinals', 1, 2);
+
+INSERT into gamescores (id, team1Score, team2Score)
+values (1, 2, 2);
+
+INSERT into roundstats (id, numShutouts, goalLeaderId, assistLeaderId, penaltyLeaderId, plusMinusId, faceoffsWonLeaderId, sogLeaderId)
+values (1, 3, 4, 4, 8, 3, 14, 20);
+
+INSERT into userstatspicks (id, roundId, goalLeaderId, assistLeaderId, penaltyLeaderId, plusMinusId, faceoffsWonLeaderId, sogLeaderId, numShutouts, userId)
+values (1, 1, 10, 15, 12, 8, 14, 20, 2, 2);
+
+INSERT into user (id, username, password)
+values (3, 'CANDYX', 'MessiT');
+
+INSERT INTO userscorepicks (id, hockeyGameId, team1score, team2score, userId)
+values (1, 1, 2, 2, 1);
+
+INSERT into hockeyteam (id, name, logo)
+values(1, 'Team A', '0XA');
+
+INSERT into hockeyteamplayer (id, hockeyTeamId, firstName, lastName, jerseyNum, position)
+values (1, 1, 'Guadalupe', 'Toledo', 11, 'Forward');
+
+INSERT into userinfo  (id, firstName, lastName, email, round1Points, round2Points, round3Points, round4Points)
+values (1, 'Guadalupe', 'Toledo', 'camila.xin611@gmail.com', 0, 1, 1, 2);
