@@ -1,6 +1,6 @@
 --Aridni Mariana Yañez Sanchez 
 
---Ejercicio 2
+--Ejercicio 1
 
 CREATE TABLE flujos_trabajo (
 Flujo VARCHAR(50),
